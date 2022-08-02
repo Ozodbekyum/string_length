@@ -7,13 +7,11 @@
     Returns:
         str: answer
 */
-double func(String s) {
-  double r = s.length / 2;
-  print(s[1] + s[2]);
-  return r;
+String func(String s) {
+  return s[1] + s[2];
 }
 
 void main() {
-  print(func('wern'));
+  print(func('code'));
   // write your code here
 }
