@@ -7,6 +7,15 @@
     Returns:
         True or False
 */
+bool func(String a, String b) {
+  if (a.length == b.length) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 void main() {
+  print(func('ra', 'uy'));
   // write your code here
 }
