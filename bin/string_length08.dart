@@ -7,6 +7,13 @@
     Returns:
         str: answer
 */
+double func(String s) {
+  double r = s.length / 2;
+  print(s[1] + s[2]);
+  return r;
+}
+
 void main() {
+  print(func('wern'));
   // write your code here
 }
