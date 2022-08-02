@@ -7,5 +7,7 @@
         length of string */
 
 void main() {
+  String s = 'Text';
+  print(s.length);
   // write your code here
 }
