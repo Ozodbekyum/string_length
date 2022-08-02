@@ -6,7 +6,11 @@
     Returns:
         bool: answer
 */
+String func(String s) {
+  return s.toUpperCase();
+}
 
 void main() {
+  print(func('Gerbin'));
   // write your code here
 }
