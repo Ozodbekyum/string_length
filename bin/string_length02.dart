@@ -6,6 +6,15 @@
     Returns:
         True or False
      */
+bool func(String s) {
+  if (s.length % 2 == 0) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 void main() {
+  print(func('codes'));
   // write your code here
 }
